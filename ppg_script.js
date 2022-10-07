@@ -135,13 +135,17 @@
     let leftButtonIcon = document.getElementById("left-button-icon");
     let leftActivate = false;
     let idLeft;
-    leftButtonIcon.addEventListener("mousedown", function(){
+    // leftButtonIcon.addEventListener("mousedown", function(){
+    //     leftActivate = true;
+    //     idLeft = setInterval(moveLeftByLeftButton, 30);
+    // });
+    leftButtonIcon.addEventListener("mouseover", function(){
         leftActivate = true;
         idLeft = setInterval(moveLeftByLeftButton, 30);
     });
-    leftButtonIcon.addEventListener("mouseup", function(){
-        leftActivate = false;
-    });
+    // leftButtonIcon.addEventListener("mouseup", function(){
+    //     leftActivate = false;
+    // });
     leftButtonIcon.addEventListener("mouseout", function(){
         leftActivate = false;
     });
@@ -162,13 +166,17 @@
     let idRight;
     let rightButtonIcon = document.getElementById("right-button-icon");
     let rightActivate = false;
-    rightButtonIcon.addEventListener("mousedown", function(){
+    // rightButtonIcon.addEventListener("mousedown", function(){
+    //     rightActivate = true;
+    //     idRight = setInterval(moveRightByRightButton, 30);
+    // });
+    rightButtonIcon.addEventListener("mouseover", function(){
         rightActivate = true;
         idRight = setInterval(moveRightByRightButton, 30);
     });
-    rightButtonIcon.addEventListener("mouseup", function(){
-        rightActivate = false;
-    });
+    // rightButtonIcon.addEventListener("mouseup", function(){
+    //     rightActivate = false;
+    // });
     rightButtonIcon.addEventListener("mouseout", function(){
         rightActivate = false;
     });
