@@ -106,9 +106,9 @@ span{
     margin: 10px;
     transition: 0.1s all;
 }
-#left-button-icon:hover{
+/* #left-button-icon:hover{
     color: gray;
-}
+} */
 #right-button-icon{
     transform: scale(5);
     margin: 10px;
@@ -121,6 +121,6 @@ span{
     justify-content: space-between;
     transition: 0.1s all;
 }
-#right-button-icon:hover{
+/* #right-button-icon:hover{
     color: gray;
-}
+} */
