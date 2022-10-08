@@ -189,7 +189,7 @@
     //     rightActivate = false;
     // });
     rightButtonIcon.addEventListener("touchend", function(){
-        leftButtonIcon.style.color = "black";
+        rightButtonIcon.style.color = "black";
         rightActivate = false;
     });
 
