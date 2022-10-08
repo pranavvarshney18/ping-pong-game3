@@ -102,7 +102,7 @@ span{
 
 /* left icon and right icon button  */
 #left-button-icon{
-    transform: scale(3);
+    transform: scale(5);
     margin: 10px;
     transition: 0.1s all;
 }
@@ -110,10 +110,11 @@ span{
     color: gray;
 }
 #right-button-icon{
-    transform: scale(3);
+    transform: scale(5);
     margin: 10px;
 }
 #button-icon-container{
+    transform: translate(0, 10vh);
     width: 95vw;
     margin: auto;
     display: flex;
