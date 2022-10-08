@@ -145,9 +145,11 @@
     let idLeft;
     leftButtonIcon.addEventListener("touchstart", function(){
         leftActivate = true;
+        leftButtonIcon.style.color = "gray";
         idLeft = setInterval(moveLeftByLeftButton, 30);
     });
     leftButtonIcon.addEventListener("touchend", function(){
+        leftButtonIcon.style.color = "black";
         leftActivate = false;
     });
     // leftButtonIcon.addEventListener("mouseout", function(){
@@ -180,12 +182,14 @@
     let rightActivate = false;
     rightButtonIcon.addEventListener("touchstart", function(){
         rightActivate = true;
+        rightButtonIcon.style.color = "gray";
         idRight = setInterval(moveRightByRightButton, 30);
     });
     // rightButtonIcon.addEventListener("mouseup", function(){
     //     rightActivate = false;
     // });
     rightButtonIcon.addEventListener("touchend", function(){
+        leftButtonIcon.style.color = "black";
         rightActivate = false;
     });
 
