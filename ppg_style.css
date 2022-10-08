@@ -20,12 +20,20 @@ span{
     font-size:50px;
     font-weight: 800;
     margin-left:20px;
-    margin-top:200px;
+    margin-top:20px;
 }
 /* .currentScore{
     color:lightslategray;
     font: 20px;
 } */
+
+/* #info-container{
+    display: inline;
+    position: absolute;
+    border: 1px solid black;
+    
+} */
+
 #button{
     padding:5px;
     width:150px;
@@ -114,8 +122,11 @@ span{
     margin: 10px;
 }
 #button-icon-container{
-    transform: translate(0, 10vh);
-    width: 95vw;
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    /* transform: translate(0, 10vh); */
+    width: 90vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
